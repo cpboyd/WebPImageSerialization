@@ -24,8 +24,8 @@
 
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Weverything"
-#import <WebP/encode.h>
-#import <WebP/decode.h>
+#import <libwebp/encode.h>
+#import <libwebp/decode.h>
 #pragma clang diagnostic pop
 
 NS_ASSUME_NONNULL_BEGIN

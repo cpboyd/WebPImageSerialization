@@ -14,4 +14,5 @@ Pod::Spec.new do |s|
 
   s.ios.frameworks = 'CoreGraphics'
   s.ios.deployment_target = '5.0'
+  s.dependency 'libwebp', '~> 1.1'
 end
